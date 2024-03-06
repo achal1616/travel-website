@@ -1,0 +1,293 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+    background-color: black;
+}
+
+#nv1 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+#nv2 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+#nv3 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+#nv4 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+#nv5 {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+    color: white;
+}
+
+#video-background {
+    position: relative;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    margin-top: -100px;
+}
+
+video {
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#vd1 {
+    /* text-align: center; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+}
+
+.bd {
+    background-color: white;
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+#bd1 {
+    height: 600px;
+    width: 50%;
+    margin-right: 50px;
+}
+
+#bd2 {
+    height: 600px;
+    width: 50%;
+    display: flex;
+    margin-right: 50px;
+}
+
+#bd3 {
+    height: 500px;
+    margin-bottom: 50px;
+    width: 50%;
+    margin-top: 50px;
+    background-image: url(gallery01.jpg);
+    background-size: cover;
+}
+
+#bd4 {
+    margin-left: 50px;
+    height: 500px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#bd5 {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-image: url(gallery02.jpg);
+    background-size: cover;
+}
+
+#bd6 {
+    height: 250px;
+    width: 100%;
+    background-image: url(gallery03.jpg);
+    background-size: cover;
+}
+
+#b1 {
+    height: 200px;
+    width: 50%;
+    text-align: center;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 3px grey;
+    margin-top: 200px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid black;
+    border-right: 25%;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.nav {
+    place-items: left;
+    text-align: center;
+    padding-left: 300px;
+    height: 100px;
+    width: 200px;
+}
+
+.button {
+    margin-left: 25px;
+    padding: 10px;
+    background-color: rgb(233, 234, 244);
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mad {
+    margin-top: -100px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+#container2 {
+    height: 700px;
+    width: 100%;
+}
+
+.fifthpage {
+    height: auto;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+}
+
+.box {
+    position: relative;
+    width: 690px;
+    height: 650px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.box:hover {
+    opacity: 0.7;
+}
+
+.box:hover .button,
+.box:hover .text {
+    display: block;
+}
+
+.box .button,
+.box .text {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.box .button {
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid #d4c6c6;
+    border-radius: 20px;
+}
+
+.box .text {
+    margin-top: 250px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.b1 {
+    background-image: url(the-richland-tanveer-badal-13.jpg);
+}
+
+.b2 {
+    background-image: url(MAIN.jpg);
+}
+
+#lastpage {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#lp1 {
+    height: 100%;
+    width: 35%;
+    color: black
+}
+
+#lp2 {
+    height: 100%;
+    width: 35%;
+    color: black
+}
+
+#lp3 {
+    height: 100%;
+    width: 35%;
+    color: black
+}
